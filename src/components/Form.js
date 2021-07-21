@@ -30,7 +30,7 @@ export default function Form() {
     <div className="form">
       <h1>Create an account</h1>
       <p className="signin-link">
-        Already have an account? <a href="#">Sign in</a>
+        Already have an account? <a href="/">Sign in</a>
       </p>
       <form onSubmit={handleSubmit}>
         {show && (
